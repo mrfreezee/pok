@@ -699,15 +699,15 @@ button:active {
 
 @media(max-width: 452px) {
     .carousel__item--right {
-        transform: translate3d(77%, -36%, 0) scale(0.9) rotate(8deg);
+        transform: translate3d(75%, -36%, 0) scale(0.9) rotate(8deg);
     }
 
     .carousel__item--left {
-        transform: translate3d(-19%, -36%, 0) scale(0.9) rotate(-8deg);
+        transform: translate3d(-45%, -36%, 0) scale(0.9) rotate(-8deg);
     }
 
     .carousel__item--main {
-        transform: translate3d(36%, -50%, 0) scale(1);
+        transform: translate3d(14%, -50%, 0) scale(1);
     }
     .leftBtn {
         transform: translate3d(91%, 11%, 0) scale(1) rotate(-8deg);
