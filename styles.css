@@ -654,15 +654,15 @@ button:active {
 
 @media(max-width: 560px) {
     .carousel__item--right {
-        transform: translate3d(92%, -33%, 0) scale(1.3) rotate(8deg);
+        transform: translate3d(120%, -33%, 0) scale(1.3) rotate(8deg);
     }
 
     .carousel__item--left {
-        transform: translate3d(-48%, -33%, 0) scale(1.3) rotate(-8deg);
+        transform: translate3d(-44%, -33%, 0) scale(1.3) rotate(-8deg);
     }
 
     .carousel__item--main {
-        transform: translate3d(29%, -50%, 0) scale(1.3);
+        transform: translate3d(36%, -50%, 0) scale(1.3);
     }
     .carousel__btns{
         left: 0;
@@ -678,15 +678,15 @@ button:active {
 
 @media(max-width: 490px) {
     .carousel__item--right {
-        transform: translate3d(92%, -33%, 0) scale(1.3) rotate(8deg);
+        transform: translate3d(105%, -33%, 0) scale(1.3) rotate(8deg);
     }
 
     .carousel__item--left {
-        transform: translate3d(-43%, -33%, 0) scale(1.3) rotate(-8deg);
+        transform: translate3d(-52%, -33%, 0) scale(1.3) rotate(-8deg);
     }
 
     .carousel__item--main {
-        transform: translate3d(33%, -50%, 0) scale(1.3);
+        transform: translate3d(27%, -50%, 0) scale(1.3);
     }
     .leftBtn {
         transform: translate3d(90%, 11%, 0) scale(1) rotate(-8deg);
@@ -699,15 +699,15 @@ button:active {
 
 @media(max-width: 452px) {
     .carousel__item--right {
-        transform: translate3d(75%, -36%, 0) scale(0.9) rotate(8deg);
+        transform: translate3d(86%, -36%, 0) scale(0.9) rotate(8deg);
     }
 
     .carousel__item--left {
-        transform: translate3d(-45%, -36%, 0) scale(0.9) rotate(-8deg);
+        transform: translate3d(-32%, -36%, 0) scale(0.9) rotate(-8deg);
     }
 
     .carousel__item--main {
-        transform: translate3d(14%, -50%, 0) scale(1);
+        transform: translate3d(26%, -50%, 0) scale(1);
     }
     .leftBtn {
         transform: translate3d(91%, 11%, 0) scale(1) rotate(-8deg);
@@ -716,6 +716,51 @@ button:active {
     .rightBtn {
         transform: translate3d(62%, 11%, 0) scale(1) rotate(8deg);
     }
+}
+
+@media(max-width: 430px) {
+    .carousel__item--right {
+        transform: translate3d(82%, -36%, 0) scale(0.9) rotate(8deg);
+    }
+
+    .carousel__item--left {
+        transform: translate3d(-38%, -36%, 0) scale(0.9) rotate(-8deg);
+    }
+
+    .carousel__item--main {
+        transform: translate3d(21%, -50%, 0) scale(1);
+    }
+    
+}
+
+@media(max-width: 410px) {
+    .carousel__item--right {
+        transform: translate3d(78%, -36%, 0) scale(0.9) rotate(8deg);
+    }
+
+    .carousel__item--left {
+        transform: translate3d(-42%, -36%, 0) scale(0.9) rotate(-8deg);
+    }
+
+    .carousel__item--main {
+        transform: translate3d(17%, -50%, 0) scale(1);
+    }
+    
+}
+
+@media(max-width: 390px) {
+    .carousel__item--right {
+        transform: translate3d(74%, -36%, 0) scale(0.9) rotate(8deg);
+    }
+
+    .carousel__item--left {
+        transform: translate3d(-46%, -36%, 0) scale(0.9) rotate(-8deg);
+    }
+
+    .carousel__item--main {
+        transform: translate3d(13%, -50%, 0) scale(1);
+    }
+    
 }
 
 @media(max-width: 380px) {
